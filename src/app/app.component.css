@@ -1,0 +1,25 @@
+.navbar {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  position: fixed;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  padding-top: 500px;
+
+  max-width: 740px;
+}
+
+@media (max-width: 380px) {
+  .main-container {
+    padding: 10px;
+  }
+}
